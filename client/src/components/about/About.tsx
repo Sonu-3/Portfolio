@@ -12,7 +12,7 @@ export default function About() {
         className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 border-8 border-black dark:border-white"
       >
         <img
-          src="src/115897390400343963.jpg"
+          src="/115897390400343963.jpg"
           alt="Profile"
           className="w-full h-full object-cover"
           loading="lazy"
