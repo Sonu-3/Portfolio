@@ -32,16 +32,16 @@ export default function About() {
 
         <div className="flex gap-4 justify-center">
           <a href="https://github.com/Sonu-3" target="_blank" rel="noopener noreferrer">          
-            <Button variant="default" size="icon" className="bg-black hover:bg-gray-800 dark:bg-white dark:text-black" link:>
+            <Button variant="default" size="icon" className="bg-black hover:bg-gray-800 dark:bg-white dark:text-black">
             <FaGithub className="h-5 w-5" />
           </Button>
+            </a>
           <Button variant="default" size="icon" className="bg-black hover:bg-gray-800 dark:bg-white dark:text-black">
             <FaLinkedin className="h-5 w-5" />
           </Button>
           <Button variant="default" size="icon" className="bg-black hover:bg-gray-800 dark:bg-white dark:text-black">
             <FaTwitter className="h-5 w-5" />
           </Button>
-            </a>
 
         </div>
       </motion.div>
